@@ -1,4 +1,13 @@
-Task 1: Create a Git Repo
-Task 2: Push Repo to GitHub
-Task 3: Update Tasks Regularly
-Task 4: Move all previous tasks into this repo
+"# Daily Tasks Repository" 
+This repository is for tracking my daily tasks using Git and GitHub.
+
+## 📌 Tasks Included:
+- ✅ Create a Git Repository
+- ✅ Push Repo to GitHub
+- ✅ Update Tasks Regularly
+- ✅ Add a README File
+
+## 🚀 How to Use:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Jayapriyajayaraman/daily-tasks.git
