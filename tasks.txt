@@ -3,3 +3,4 @@ Task 2: Push Repo to GitHub
 Task 3: Update Tasks Regularly
 Task 4: Move all previous tasks into this repo
 "Task 6: Testing the dev branch on GitHub" 
+"Task 8: More updates in dev branch" 
