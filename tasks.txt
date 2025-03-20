@@ -1,1 +1,3 @@
-"Task 1: Create a Git Repo" 
+Task 1: Create a Git Repo
+Task 2: Push Repo to GitHub
+Task 3: Update Tasks Regularly
