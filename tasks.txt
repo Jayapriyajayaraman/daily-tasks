@@ -1,17 +1,1 @@
-Task 1: Create a Git Repo
-Task 2: Push Repo to GitHub
-Task 3: Update Tasks Regularly
-Task 4: Move all previous tasks into this repo
-<<<<<<< HEAD
-"Task 6: Testing the dev branch on GitHub" 
-"Task 8: More updates in dev branch" 
-"Task 9: More updates in dev branch" 
-=======
-"Task 10: New update in main branch" 
->>>>>>> ad02e85 (Added Task 10 in main branch)
-<<<<<<< HEAD
-Your local changes in tasks.txt
-=======
-Changes from GitHub
->>>>>>> a2550b7
-
+"Task 10: Updated in main branch only" 
