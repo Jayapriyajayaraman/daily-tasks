@@ -1,0 +1,23 @@
+from fastapi import FastAPI
+import joblib
+import pandas as pd
+from datetime import datetime
+
+# Initialize the FastAPI app
+app = FastAPI()
+
+# Load the trained model
+model = joblib.load('forecasting_model.pkl')
+
+# Forecast function
+def forecast(model, start_date: str, periods: int):
+    start_date = pd.to_datetime(start_date)
+    date_range = pd.date_range(start=start_date, periods=periods, freq='D')
+    forecast_values = model.get_forecast(steps=periods).predicted_mean
+    forecast_df = pd.DataFrame({'Date': date_range, 'Forecast': forecast_values})
+    return forecast_df.to_dict(orient='records')
+
+@app.get("/forecast")
+def get_forecast(start_date: str, periods: int):
+    forecast_data = forecast(model, start_date, periods)
+    return {"forecast": forecast_data}
